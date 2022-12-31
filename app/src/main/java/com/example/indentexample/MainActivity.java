@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "홍들박", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Test code", Toast.LENGTH_SHORT).show();
 
             }
         });
